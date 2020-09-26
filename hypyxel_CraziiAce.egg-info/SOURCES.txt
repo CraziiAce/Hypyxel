@@ -1,0 +1,7 @@
+setup.py
+hypyxel/__init__.py
+hypyxel/hypyxel.py
+hypyxel_CraziiAce.egg-info/PKG-INFO
+hypyxel_CraziiAce.egg-info/SOURCES.txt
+hypyxel_CraziiAce.egg-info/dependency_links.txt
+hypyxel_CraziiAce.egg-info/top_level.txt
