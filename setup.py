@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="hypyxel", 
-    version="0.0.3",
+    version="0.0.4",
     author="CraziiAce",
     author_email="teddyjraz@gmail.com",
     description="A python wrapper for the Hypixel API",
