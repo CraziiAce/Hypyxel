@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="hypyxel", 
+    name="HyPy", 
     version="0.0.4",
     author="CraziiAce",
     author_email="teddyjraz@gmail.com",
-    description="A python wrapper for the Hypixel API",
-    long_description="This is a work in progress.\nHypyxel is an easy python wrapper for the Hypixel API, more endpoints added every day.",
+    description="A python wrapper for the Hypixel API.\n## Usage:\n**Skyblock Stats**: `from hypy import skyblock`\n**Skyblock Stats**: `from hypy import skyblock`\n`get_endpoints` returns a dict of all functions and the associated endpoint",
+    long_description="WIP",
     long_description_content_type="text/markdown",
-    url="https://github.com/CraziiAce/pypixel",
+    url="https://github.com/CraziiAce/HyPy",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
