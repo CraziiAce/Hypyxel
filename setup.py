@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="HyPy", 
-    version="0.0.5",
+    name="Hypyxel", 
+    version="0.0.6",
     author="CraziiAce",
     author_email="teddyjraz@gmail.com",
     description="A python wrapper for the Hypixel API.\n## Usage:\n**Skyblock Stats**: `from hypy import skyblock`\n**Skyblock Stats**: `from hypy import skyblock`\n`get_endpoints` returns a dict of all functions and the associated endpoint",
