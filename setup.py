@@ -9,7 +9,7 @@ setuptools.setup(
     author="CraziiAce",
     author_email="teddyjraz@gmail.com",
     description="A python wrapper for the Hypixel API",
-    long_description="WIP",
+    long_description="This is a work in progress.\nHypyxel is an easy python wrapper for the Hypixel API, more endpoints added every day.",
     long_description_content_type="text/markdown",
     url="https://github.com/CraziiAce/pypixel",
     packages=setuptools.find_packages(),
