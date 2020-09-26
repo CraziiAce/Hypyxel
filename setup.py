@@ -1,0 +1,22 @@
+import setuptools
+
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+setuptools.setup(
+    name="hypyxel", 
+    version="0.0.4",
+    author="CraziiAce",
+    author_email="teddyjraz@gmail.com",
+    description="A python wrapper for the Hypixel API",
+    long_description="This is a work in progress.\nHypyxel is an easy python wrapper for the Hypixel API, more endpoints added every day.",
+    long_description_content_type="text/markdown",
+    url="https://github.com/CraziiAce/pypixel",
+    packages=setuptools.find_packages(),
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    python_requires='>=3.6',
+)
