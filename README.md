@@ -1,11 +1,14 @@
+
+
+<h1 align="center">HyPyxel</h1>
+<p align="center">
 <a href="https://pypi.org/project/hypyxel/">
   <img alt="PyPI" src="https://img.shields.io/pypi/v/Hypyxel">
 </a>
 <a href="https://github.com/craziiace/hypyxel/blob/master/License">
   <img alt="License" src="https://img.shields.io/pypi/l/hypyxel">
 </a>
-
-<h1 align="center">HyPyxel</h1>
+</p>
 A python wrapper for the Hypixel API.
 I have a local branch with more endpoints.
 
