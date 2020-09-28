@@ -14,6 +14,12 @@
 <a href="https://github.com/CraziiAce/Hypyxel/issues">
   <img alt="Issues" src="https://img.shields.io/github/issues/craziiace/hypyxel?style=flat-square">
 </a>
+<a href="http://makeapullrequest.com">
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square">
+</a>
+<a href="https://github.com/craziiace/hypyxel">
+  <img src="https://img.shields.io/tokei/lines/github/craziiace/hypyxel?style=flat-square">
+</a>
 </p>
 A python wrapper for the Hypixel API.
 I have a local branch with more endpoints.
