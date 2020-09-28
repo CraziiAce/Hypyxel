@@ -1,3 +1,4 @@
+https://img.shields.io/pypi/pyversions/hypyxel https://img.shields.io/github/issues/craziiace/hypyxel https://img.shields.io/pypi/l/hypyxel
 # Hypyxel
 A python wrapper for the Hypixel API.
 I have a local branch with more endpoints.
