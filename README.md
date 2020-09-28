@@ -2,7 +2,7 @@
   <img alt="PyPI" src="https://img.shields.io/pypi/v/Hypyxel">
 </a>
 <a href="https://github.com/craziiace/hypyxel/blob/master/License">
-  <img alt="License" src="https://img.shields.io/pypi/l/hypyxel"
+  <img alt="License" src="https://img.shields.io/pypi/l/hypyxel">
 </a>
 # Hypyxel
 A python wrapper for the Hypixel API.
