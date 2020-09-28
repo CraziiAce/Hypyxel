@@ -5,7 +5,7 @@
   <img alt="License" src="https://img.shields.io/pypi/l/hypyxel">
 </a>
 
-# Hypyxel
+<h1 align="center">HyPyxel</h1>
 A python wrapper for the Hypixel API.
 I have a local branch with more endpoints.
 
