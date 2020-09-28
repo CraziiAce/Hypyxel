@@ -9,7 +9,7 @@
   <img alt="License" src="https://img.shields.io/pypi/l/hypyxel">
 </a>
   <a href="https://www.python.org/downloads/">
-  <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/Red-Discordbot">
+  <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/hypyxel">
 </a>
 </p>
 A python wrapper for the Hypixel API.
