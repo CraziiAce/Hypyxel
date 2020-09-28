@@ -5,11 +5,11 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="Hypyxel", 
-    version="0.0.9",
+    version="0.0.10",
     author="CraziiAce",
     author_email="teddyjraz@gmail.com",
     description="A python wrapper for the Hypixel API",
-    long_description="Usage: \n`from hypyxel import hypixel`\n`hypixel.get_endpoints()`",
+    long_description=file: README.md,
     long_description_content_type="text/markdown",
     url="https://github.com/CraziiAce/Hypyxel",
     packages=setuptools.find_packages(),
