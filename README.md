@@ -8,6 +8,9 @@
 <a href="https://github.com/CraziiAce/Hypyxel/blob/master/LICENSE">
   <img alt="License" src="https://img.shields.io/pypi/l/hypyxel">
 </a>
+  <a href="https://www.python.org/downloads/">
+  <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/Red-Discordbot">
+</a>
 </p>
 A python wrapper for the Hypixel API.
 I have a local branch with more endpoints.
