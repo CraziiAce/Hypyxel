@@ -3,7 +3,7 @@
 <h1 align="center">HyPyxel</h1>
 <p align="center">
 <a href="https://pypi.org/project/hypyxel/">
-  <img alt="PyPI" src="https://img.shields.io/pypi/v/Hypyxel?style=flat-square">
+  <img alt="PyPI" src=https://img.shields.io/pypi/v/hypyxel?color=g&style=flat-square">
 </a>
 <a href="https://github.com/CraziiAce/Hypyxel/blob/master/LICENSE">
   <img alt="License" src="https://img.shields.io/pypi/l/hypyxel?style=flat-square">
