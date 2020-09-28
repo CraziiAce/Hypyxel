@@ -3,13 +3,16 @@
 <h1 align="center">HyPyxel</h1>
 <p align="center">
 <a href="https://pypi.org/project/hypyxel/">
-  <img alt="PyPI" src="https://img.shields.io/pypi/v/Hypyxel">
+  <img alt="PyPI" src="https://img.shields.io/pypi/v/Hypyxel?style=flat-square">
 </a>
 <a href="https://github.com/CraziiAce/Hypyxel/blob/master/LICENSE">
-  <img alt="License" src="https://img.shields.io/pypi/l/hypyxel">
+  <img alt="License" src="https://img.shields.io/pypi/l/hypyxel?style=flat-square">
 </a>
-  <a href="https://www.python.org/downloads/">
-  <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/hypyxel">
+<a href="https://www.python.org/downloads/">
+  <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/hypyxel?style=flat-square">
+</a>
+<a href="https://github.com/CraziiAce/Hypyxel/issues">
+  <img alt="Issues" src="https://img.shields.io/github/issues/craziiace/hypyxel?style=flat-square">
 </a>
 </p>
 A python wrapper for the Hypixel API.
