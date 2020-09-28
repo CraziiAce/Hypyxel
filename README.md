@@ -1,7 +1,7 @@
 <a href="https://pypi.org/project/hypyxel/">
   <img alt="PyPI" src="https://img.shields.io/pypi/v/Hypyxel">
 </a>
-<a href="https://github.com/craziiace/hypyxel/blob/master/License>
+<a href="https://github.com/craziiace/hypyxel/blob/master/License">
   <img alt="License" src="https://img.shields.io/pypi/l/hypyxel"
 </a>
 # Hypyxel
