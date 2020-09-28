@@ -6,7 +6,7 @@
   <img alt="PyPI" src="https://img.shields.io/pypi/v/hypyxel?color=g&style=flat-square">
 </a>
 <a href="https://github.com/CraziiAce/Hypyxel/blob/master/LICENSE">
-  <img alt="License" src="https://img.shields.io/pypi/l/hypyxel?color=g&style=flat-square">
+  <img alt="License" src="https://img.shields.io/github/license/craziiace/hypyxel?color=g&style=flat-square">
 </a>
 <a href="https://www.python.org/downloads/">
   <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/hypyxel?color=g&style=flat-square">
