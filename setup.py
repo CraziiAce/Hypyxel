@@ -10,7 +10,7 @@ setuptools.setup(
     author_email="teddyjraz@gmail.com",
     description="A python wrapper for the Hypixel API",
     long_description="Usage: \n`from hypyxel import hypyxel`\n`hypyxel.get_endpoints()`",
-    long_description_content_type="text/markdown",.
+    long_description_content_type="text/markdown",
     url="https://github.com/CraziiAce/Hypyxel",
     packages=setuptools.find_packages(),
     classifiers=[
