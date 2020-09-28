@@ -4,7 +4,7 @@ I have a local branch with more endpoints.
 
 As you can see, this is a WIP.
 
-PRs welcome.
+PRs welcome, contrubuting guildelines coming soon.
 
 ## Usage:
 
