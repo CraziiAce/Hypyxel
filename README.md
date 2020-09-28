@@ -3,7 +3,7 @@
 </a>
  <a href="https://github.com/craziiace/hypyxel/blob/master/License>
   <img alt="License" src="https://img.shields.io/pypi/l/hypyxel"
-  </a>
+</a>
 # Hypyxel
 A python wrapper for the Hypixel API.
 I have a local branch with more endpoints.
