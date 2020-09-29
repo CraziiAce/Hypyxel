@@ -10,7 +10,7 @@ Welcome to HyPyxel's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
+READTHEDOCS WORK ALREADY
 
 Indices and tables
 ==================
