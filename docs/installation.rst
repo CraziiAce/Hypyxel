@@ -7,11 +7,10 @@ Installing Hypyxel
 HyPyxel is installed through PyPi
 
 Steps:
+
 1. --Skip this if you already have python--
 
-Go `here`_ and download the latest version
-
-.. _here: https://python.org/downloads/
+Go `here <https://python.org/downloads/>`__ and download the latest version
 
 2. Go to your terminal and run 
 
