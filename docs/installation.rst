@@ -1,7 +1,9 @@
 .. Installing HyPyxel
+
 ==================
 Installing Hypyxel
 ==================
+
 HyPyxel is installed through PyPi
 
 Steps:
