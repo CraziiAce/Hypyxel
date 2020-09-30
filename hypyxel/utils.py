@@ -6,7 +6,7 @@ import requests
 
 from hypyxel.errors import UUIDNotFoundError, ApiKeyError
 
-Class Utils():
+class Utils:
     """A base class for utility functions"""
 
     
