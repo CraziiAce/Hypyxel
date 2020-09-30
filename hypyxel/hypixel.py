@@ -1,7 +1,7 @@
 import requests
 
 from hypyxel.errors import UUIDNotFoundError, ApiKeyError
-from hypyxel.utils import _get_key, _get_uuid
+from hypyxel.utils import _get_key, _get_uuid, _key_check
 
 key = ""
 hypixel_base_url = "https://api.hypixel.net"
@@ -10,22 +10,6 @@ endpoints = {
      "watchdog":"/watchdogstats", 
      "player":"/player"
 }
-
-def _get_uuid(username):
-    try:
-        return requests.request("GET", f"https://playerdb.co/api/player/minecraft/{username}")['player']['meta']['raw_id']
-    except:
-        raise UUIDNotFoundError(f"A UUID could not be found for {username}")
-
-def set_api_key(user_key):
-    """Set the API key"""
-    global key
-    key = user_key
-
-def _key_check():
-    """An internal function to check if the key exists"""
-    if not key:
-        raise ApiKeyError("You need to set the key with set_api_key()")
 
 def get_endpoints():
     """Returns a dict of fuctions and the associated endpoint"""
@@ -52,7 +36,7 @@ def status(username):
     """
 
     _key_check()
-    return requests.request("GET", f"{hypixel_base_url}{endpoints['status']}?key={key}?uuid={_get_uuid(username)}")
+    return requests.request("GET", f"{hypixel_base_url}{endpoints['status']}?key={_get_key()}?uuid={_get_uuid(username)}")
     
 def watchdog():
     """Get watchdog stats
@@ -65,7 +49,7 @@ def watchdog():
     Raises: `ApiKeyError` if the api key has not been set.
     """
     _key_check()
-    return requests.request("GET", f"{hypixel_base_url}{endpoints['watchdog']}?key={key}")
+    return requests.request("GET", f"{hypixel_base_url}{endpoints['watchdog']}?key={_get_key()}")
 
 def player(username):
     """Get information for a player\n
@@ -75,4 +59,4 @@ def player(username):
     Raises: `ApiKeyError` if the api key has not been set, or `UUIDNotFoundError` if a uuid could not be found for the username.
     """
     _key_check()
-    return requests.request("GET", f"{hypixel_base_url}{endpoints['player']}?key={key}?uuid={_get_uuid(username)}")
+    return requests.request("GET", f"{hypixel_base_url}{endpoints['player']}?key={_get_key()}?uuid={_get_uuid(username)}")
