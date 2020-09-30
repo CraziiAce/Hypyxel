@@ -21,6 +21,9 @@
   <img src="https://img.shields.io/tokei/lines/github/craziiace/hypyxel?style=flat-square&color=g">
 </a>
 </p>
+<a href="https://hypyxel.rtfd.io">
+  <img src="https://img.shields.io/readthedocs/hypyxel?color=g&style=flat-square">
+</a>
 A python wrapper for the Hypixel API.
 I have a local branch with more endpoints.
 
@@ -36,4 +39,4 @@ PRs welcome, contrubuting guildelines coming soon.
 
 ## Documentation:
 
-Coming Soon!
+<a href="https://hypyxel.rtfd.io">Work In Progress</a>
