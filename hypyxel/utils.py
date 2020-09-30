@@ -1,5 +1,7 @@
 import requests
 
+from hypyxel.errors import UUIDNotFoundError, ApiKeyError
+
 key = ""
 
 def _get_uuid(username):
