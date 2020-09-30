@@ -14,6 +14,7 @@ def _get_uuid(username):
 
 def set_api_key(user_key):
     """Set the API key"""
+    init()
     global key
     key = user_key
 
