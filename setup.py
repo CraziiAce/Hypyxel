@@ -7,7 +7,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 
 setuptools.setup(
     name="Hypyxel", 
-    version="0.0.16",
+    version="0.0.17",
     author="CraziiAce",
     author_email="teddyjraz@gmail.com",
     description="An easy-to-use python wrapper for the Hypixel API",
