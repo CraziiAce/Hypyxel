@@ -3,7 +3,6 @@ import requests
 from hypyxel.errors import UUIDNotFoundError, ApiKeyError
 from hypyxel.utils import _get_key, _get_uuid, _key_check
 
-key = ""
 hypixel_base_url = "https://api.hypixel.net"
 endpoints = {
     "status":"/status", 
