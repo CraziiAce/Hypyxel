@@ -14,21 +14,21 @@ Class Utils():
     def __init__(self):
         self.key = []
 
-    def _get_uuid(username):
+    def _get_uuid(self, username):
         try:
             return requests.request("GET", f"https://playerdb.co/api/player/minecraft/{username}").json()['data']['player']['raw_id']
         except:
             raise UUIDNotFoundError(f"A UUID could not be found for {username}")
 
-    def set_api_key(user_key):
+    def set_api_key(self, user_key):
         """Set the API key"""
         self.key.clear()
         self.key.append(user_key)
 
-    def _key_check():
+    def _key_check(self):
         """An internal function to check if the key exists"""
         if not key:
             raise ApiKeyError("You need to set the key with set_api_key()")
 
-    def _get_key():
+    def _get_key(self):
         return self.key[0]
