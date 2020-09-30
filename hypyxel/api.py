@@ -10,11 +10,22 @@ endpoints = {
      "player":"/player"
 }
 
-def get_endpoints():
+class HypixelAPI:
+    """Class for interacting with the Hypixel API"""
+    def __init__(self, api_key):
+        self.key = api_key
+        self.endpoints = {
+            "status":"/status", 
+            "watchdog":"/watchdogstats", 
+            "player":"/player"
+        }
+        self.hypixel_base_url = "https://api.hypixel.net"
+
+def get_endpoints(self):
     """Returns a dict of fuctions and the associated endpoint"""
     return endpoints
 
-def status(username):
+def status(self, username):
     """Get the status for a player\n
     Important: `username` MUST be a username, not a UUID.
     This is not the same as `player`
@@ -35,9 +46,9 @@ def status(username):
     """
 
     _key_check()
-    return requests.request("GET", f"{hypixel_base_url}{endpoints['status']}?key={_get_key()}?uuid={_get_uuid(username)}").json()
+    return requests.request("GET", f"{hypixel_base_url}{self.endpoints['status']}?key={self.key()}?uuid={_get_uuid(username)}").json()
     
-def watchdog():
+def watchdog(self):
     """Get watchdog stats
     example response:     
     .. container:: operations
@@ -48,9 +59,9 @@ def watchdog():
     Raises: `ApiKeyError` if the api key has not been set.
     """
     _key_check()
-    return requests.request("GET", f"{hypixel_base_url}{endpoints['watchdog']}?key={_get_key()}").json()
+    return requests.request("GET", f"{hypixel_base_url}{self.endpoints['watchdog']}?key={self.key()}").json()
 
-def player(username):
+def player(self, username):
     """Get information for a player\n
     Important: `username` MUST be a username, not a UUID.
     This is not the same as `status`
@@ -58,4 +69,4 @@ def player(username):
     Raises: `ApiKeyError` if the api key has not been set, or `UUIDNotFoundError` if a uuid could not be found for the username.
     """
     _key_check()
-    return requests.request("GET", f"{hypixel_base_url}{endpoints['player']}?key={_get_key()}?uuid={_get_uuid(username)}").json()
+    return requests.request("GET", f"{hypixel_base_url}{self.endpoints['player']}?key={self.key()}?uuid={_get_uuid(username)}").json()
