@@ -1,6 +1,5 @@
 """
 © 2020 CraziiAce
-This code may be used freely as long as long it bears this copyright statement at the start.
 """
 
 import requests
