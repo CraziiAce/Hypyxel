@@ -35,7 +35,7 @@ def status(username):
     """
 
     _key_check()
-    return requests.request("GET", f"{hypixel_base_url}{endpoints['status']}?key={_get_key()}?uuid={_get_uuid(username)}")
+    return requests.request("GET", f"{hypixel_base_url}{endpoints['status']}?key={_get_key()}?uuid={_get_uuid(username)}").json()
     
 def watchdog():
     """Get watchdog stats
@@ -48,7 +48,7 @@ def watchdog():
     Raises: `ApiKeyError` if the api key has not been set.
     """
     _key_check()
-    return requests.request("GET", f"{hypixel_base_url}{endpoints['watchdog']}?key={_get_key()}")
+    return requests.request("GET", f"{hypixel_base_url}{endpoints['watchdog']}?key={_get_key()}").json()
 
 def player(username):
     """Get information for a player\n
@@ -58,4 +58,4 @@ def player(username):
     Raises: `ApiKeyError` if the api key has not been set, or `UUIDNotFoundError` if a uuid could not be found for the username.
     """
     _key_check()
-    return requests.request("GET", f"{hypixel_base_url}{endpoints['player']}?key={_get_key()}?uuid={_get_uuid(username)}")
+    return requests.request("GET", f"{hypixel_base_url}{endpoints['player']}?key={_get_key()}?uuid={_get_uuid(username)}").json()
