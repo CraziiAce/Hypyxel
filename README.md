@@ -20,10 +20,11 @@
 <a href="https://github.com/craziiace/hypyxel">
   <img src="https://img.shields.io/tokei/lines/github/craziiace/hypyxel?style=flat-square&color=g">
 </a>
-</p>
 <a href="https://hypyxel.rtfd.io">
   <img src="https://img.shields.io/readthedocs/hypyxel?color=g&style=flat-square">
 </a>
+</p>
+
 A python wrapper for the Hypixel API.
 I have a local branch with more endpoints.
 
