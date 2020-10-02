@@ -1,3 +1,4 @@
-__version__ = "0.1.0-beta2"
+__version__ = "0.1.0-5"
 
-from hypyxel import hypixel, errors, utils
+from hypyxel import errors, utils
+from hypyxel.api import HypixelAPI
