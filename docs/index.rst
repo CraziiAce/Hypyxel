@@ -11,7 +11,7 @@ Welcome to HyPyxel's documentation!
    :caption: Contents
    
    installation
-   getting_started
+   usage
 
 Indices and tables
 ==================
