@@ -28,6 +28,8 @@ class HypixelAPI:
         r = requests.request("GET", f"{hypixel_base_url}{self.endpoints['key']}?key={self.key}").json()
         if not r["success"]:
             raise AdvApiKeyError("That api key didn't work...")
+        else:
+            return True
 
     def get_endpoints(self):
         """Returns a dict of functions and the associated endpoint"""
